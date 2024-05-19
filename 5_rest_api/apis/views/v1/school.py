@@ -1,9 +1,6 @@
-import requests
 from ...models import *
-from rest_framework import status
 from rest_framework.decorators import permission_classes
 from rest_framework.permissions import AllowAny
-from rest_framework.response import Response
 from ...serializers import *
 from rest_framework import generics
 from django_filters import rest_framework as filters

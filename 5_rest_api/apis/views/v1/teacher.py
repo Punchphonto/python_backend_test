@@ -1,7 +1,6 @@
 from rest_framework import generics
 from ...models import Teacher
 from ...serializers import TeacherSerializer, TeacherDetailSerializer
-
 from ...filters import TeacherFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.decorators import permission_classes
