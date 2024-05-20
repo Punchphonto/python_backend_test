@@ -4,7 +4,7 @@ from rest_framework.permissions import AllowAny
 from ...serializers import *
 from rest_framework import generics
 from django_filters import rest_framework as filters
-from ...filters import *
+from ...filters import ClassRoomFilter
 from django_filters.rest_framework import DjangoFilterBackend
 
 @permission_classes([AllowAny])
